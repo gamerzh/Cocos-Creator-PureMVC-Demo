@@ -1,5 +1,5 @@
 {
-  "ver": "1.0.25",
+  "ver": "1.0.27",
   "importer": "image",
   "imported": true,
   "uuid": "7a49bc7d-976d-484e-a237-bfb83c271e0a",
@@ -117,7 +117,7 @@
           ]
         }
       },
-      "ver": "1.0.11",
+      "ver": "1.0.12",
       "imported": true,
       "files": [
         ".json"
@@ -128,7 +128,7 @@
   "userData": {
     "hasAlpha": false,
     "type": "sprite-frame",
-    "redirect": "7a49bc7d-976d-484e-a237-bfb83c271e0a@f9941",
+    "redirect": "7a49bc7d-976d-484e-a237-bfb83c271e0a@6c48a",
     "fixAlphaTransparencyArtifacts": false
   }
 }

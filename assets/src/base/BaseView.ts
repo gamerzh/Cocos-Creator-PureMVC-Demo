@@ -1,7 +1,3 @@
-/**
- * Created by jsroads on 2021/4/23.2:10 下午
- * Note:
- */
 import {js} from "cc";
 import AppNode from "../AppNode";
 import BaseUI from "./BaseUI";

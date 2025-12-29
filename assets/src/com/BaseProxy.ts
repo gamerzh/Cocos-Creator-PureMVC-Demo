@@ -1,8 +1,4 @@
-/**
- * Created by jsroads on 2020/6/11.2:51 下午
- * Note:
- */
-import {_decorator, js} from "cc";
+import {_decorator, js, log } from "cc";
 import {IProxy, Proxy} from "../../lib/puremvc";
 
 const {ccclass, property, menu} = _decorator;
@@ -20,6 +16,6 @@ export default abstract class BaseProxy extends Proxy implements IProxy {
     }
 
     public failMessage(res: any) {
-        console.log("登录失败", res);
+        log("登录失败", res);
     }
 }

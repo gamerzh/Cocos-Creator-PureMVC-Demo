@@ -1,7 +1,3 @@
-/**
- * Created by jsroads on 2020/6/18. 6:08 下午
- * Note:抽象类
- */
 import {_decorator, Component, js, Node} from 'cc';
 import {Mediator} from "../../lib/puremvc";
 

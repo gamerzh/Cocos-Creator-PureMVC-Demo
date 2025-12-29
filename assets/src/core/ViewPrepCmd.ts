@@ -1,7 +1,3 @@
-/**
- * Created by jsroads on 2020/6/11.2:39 下午
- * Note:创建Mediator，并把它注册到View.
- */
 import AppMediator from "../AppMediator";
 import {INotification, SimpleCommand} from "../../lib/puremvc";
 

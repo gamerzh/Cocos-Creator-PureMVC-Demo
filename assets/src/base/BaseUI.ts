@@ -1,8 +1,3 @@
-/**
- * Created by jsroads on 2020/6/20. 11:24 上午
- * Note:
- */
-
 import {Component} from "cc";
 import {IBaseUI} from "../data/Inters";
 export default abstract class BaseUI extends Component implements IBaseUI {

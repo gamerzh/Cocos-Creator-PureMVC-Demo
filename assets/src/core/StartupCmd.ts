@@ -1,7 +1,3 @@
-/**
- * Created by jsroads on 2020/6/11.2:40 下午
- * Note:
- */
 import ControllerCmd from "./ControllerCmd";
 import ModelPrepCmd from "./ModelPrepCmd";
 import ViewPrepCmd from "./ViewPrepCmd";

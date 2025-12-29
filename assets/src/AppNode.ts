@@ -1,32 +1,3 @@
-/**
- * Created by jsroads on 2021/03/01.5:58 下午
- * Note:
- */
-/**
- *
- *
- *                                                    __----~~~~~~~~~~~------___
- *                                   .  .   ~~//====......          __--~ ~~
- *                   -.            \_|//     |||\\  ~~~~~~::::... /~
- *                ___-==_       _-~o~  \/    |||  \\            _/~~-
- *        __---~~~.==~||\=_    -_--~/_-~|-   |\\   \\        _/~
- *    _-~~     .=~    |  \\-_    '-~7  /-   /  ||    \      /
- *  .~       .~       |   \\ -_    /  /-   /   ||      \   /
- * /  ____  /         |     \\ ~-_/  /|- _/   .||       \ /
- * |~~    ~~|--~~~~--_ \     ~==-/   | \~--===~~        .\
- *          '         ~-|      /|    |-~\~~       __--~~
- *                      |-~~-_/ |    |   ~\_   _-~            /\
- *                           /  \     \__   \/~                \__
- *                       _--~ _/ | .-~~____--~-/                  ~~==.
- *                      ((->/~   '.|||' -_|    ~~-/ ,              . _||
- *                                 -_     ~\      ~~---l__i__i__i--~~_/
- *                                 _-~-__   ~)  \--______________--~~
- *                               //.-~~~-~_--~- |-------~~~~~~~~
- *                                      //.-~~~--\
- *                               神兽保佑
- *                              代码无BUG!
- */
-
 import {_decorator, Component, game, Node, input, Input, KeyCode} from "cc";
 import {AppFacade} from "./core/AppFacade";
 import {IMediator, IProxy} from "../lib/puremvc";
@@ -38,6 +9,7 @@ const {ccclass, disallowMultiple, menu, executionOrder} = _decorator;
 @menu('常住节点组件/AppNode')
 @executionOrder(-10000)
 export default class AppNode extends Component {
+    
     public static registerProxy(proxy: IProxy): void {
         AppFacade.getInstance().registerProxy(proxy);
     }

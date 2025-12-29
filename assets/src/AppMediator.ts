@@ -1,8 +1,4 @@
-/**
- * Created by jsroads on 2020/6/11.2:42 下午
- * Note:
- */
-import {_decorator, Node} from 'cc';
+import {_decorator, Node, log} from 'cc';
 import {MsgConst} from "./config/MsgConst";
 import BaseMediator from "./base/BaseMediator";
 import {INotification} from "../lib/puremvc";
@@ -34,6 +30,6 @@ export default class AppMediator extends BaseMediator {
     }
     protected lazyEventListener() {
         //因为AppMediator 注册 是传统方式 故而不会主动调用 lazyEventListener
-        console.log("这里可以延迟监听Node节点事件或者注册其他的Mediator")
+        log("这里可以延迟监听Node节点事件或者注册其他的Mediator")
     }
 }

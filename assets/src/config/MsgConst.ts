@@ -1,8 +1,3 @@
-/**
- * Created by jsroads on 2020/6/11.2:39 下午
- * Note: 游戏消息集合
- */
-
 export enum MsgConst {
     /**游戏框架启动*/
     START_UP = "start_up",

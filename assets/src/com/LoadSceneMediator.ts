@@ -1,7 +1,3 @@
-/**
- * Created by jsroads on 2021/4/26.8:35 下午
- * Note:
- */
 import {_decorator, Node} from 'cc';
 import BaseMediator from "../base/BaseMediator";
 import {MsgConst} from "../config/MsgConst";
